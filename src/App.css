@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(29, 29, 29);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bounce:hover{
+  color: crimson;
+  animation: animate 1s;
+}
+
+@keyframes animate{
+  25%{
+    transform: scale(0.5, 1.5);
+  }
+}

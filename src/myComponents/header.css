@@ -1,0 +1,62 @@
+
+.Header{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar{
+    width: 45px;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+}
+.name{
+    margin-top: 15px;
+    color: white;
+    font-weight: 900;
+    line-height: 8px;
+    font-size: 25px;
+}
+.colour a{
+    color: white;
+}
+.contact{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 6px;
+}
+.items-align{
+    padding-left: 6px;
+    margin-top: 160%;
+}
+.items-align li{
+    position: relative;
+    padding-top: 25px;
+    display: flex;
+}
+.items-align li p{
+    position: fixed;
+    opacity: 0;
+    padding: 6px;
+    font-size: 1px;
+    border-radius: 3px;
+    background-color:crimson;
+    
+    color: white;
+}
+.items-align li:hover p{
+    font-size: 19px;
+    margin-left: 40px;
+    opacity: 100;
+}
+.items-align li:hover a{
+    color: crimson;
+}
+.contact li{
+    padding-top: 10px;
+}
+.contact li a:hover{
+    color: crimson;
+}
