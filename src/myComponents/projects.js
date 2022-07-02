@@ -3,6 +3,7 @@ import "./components.css";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import Card from "./components/Card";
 import { properties } from "./constants/data";
+import Allbackground from '../background/allbackground';
 
 export default function Projects() {
   const [post, setPost] = useState(false)
@@ -28,6 +29,7 @@ export default function Projects() {
         <p>Loading...</p>
       </div>) : (
         <div className='Home components'>
+          <Allbackground />
           <div className='html'>
             {"<"}html{">"}
             <div className='m-3'>

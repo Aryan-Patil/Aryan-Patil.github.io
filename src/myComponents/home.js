@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./components.css";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import Homebackground from '../background/homebackground';
 export default function Home() {
   const [post, setPost] = useState(false)
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <>
       {post ? (<div className='loader'>
+        
         <Player
           className='loader-align'
           autoplay
@@ -24,6 +26,7 @@ export default function Home() {
         <p>Loading...</p>
       </div>) : (
         <div className='Home components'>
+          <Homebackground />
             <div className='html'>
               {"<"}html{">"}
               <div className='m-3'>
@@ -101,26 +104,6 @@ export default function Home() {
               </p>
               {"<"}/html{">"}
             </div>
-          
-          <div class="area" >
-            <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div >
         </div>
       )
       }

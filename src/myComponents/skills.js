@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./components.css";
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import Language from './language';
-
+import Allbackground from '../background/allbackground';
 
 export default function Skills() {
   const [post, setPost] = useState(false)
@@ -28,7 +28,7 @@ export default function Skills() {
       </div>) : (
         <>
         <div className='Home components'>
-
+        <Allbackground />
           <div className='html'>
             {"<"}html{">"}
             <div className='m-3'>

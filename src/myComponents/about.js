@@ -4,6 +4,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { FaSchool } from 'react-icons/fa';
 import { TbBellSchool } from 'react-icons/tb';
 import { IoSchool } from 'react-icons/io5';
+import Allbackground from '../background/allbackground';
 
 export default function About() {
   const [post, setPost] = useState(false)
@@ -28,7 +29,7 @@ export default function About() {
         <p>Loading...</p>
       </div>) : (
         <div className='Home components'>
-
+          <Allbackground />
           <div className='html'>
             {"<"}html{">"}
             <div className='m-3'>
@@ -100,8 +101,7 @@ export default function About() {
                       <h2>Bachelor’s Computer Science Engineering</h2>
                       <p>Terna Engineering College Navi Mumbai</p>
                       <ul>
-                        <li>First Year CGPA: 8.44</li>
-                        <li>Second Year CGPA: 8.44</li>
+                        <li>First Year CGPA: 9.4</li>
                       </ul>
                     </div>
                     <div className='year'>2020-2024</div>
@@ -112,7 +112,7 @@ export default function About() {
                       <h2>XII Science</h2>
                       <p>Changu Kana Thakur Jr. College</p>
                       <ul>
-                        <li>75%  (Maharashtra State Board)</li>
+                        <li>74.64%  (Maharashtra State Board)</li>
                         <li>Studied Physics, Chemistry and Maths.</li>
                       </ul>
                     </div>
