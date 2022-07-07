@@ -84,7 +84,7 @@ export default function Home() {
                   </div>
                   <div className='html'>{"<"}/p{">"}</div>
                 </div>
-                <a href='' className='btn ms-5 btn-danger'>Download Cv</a>
+                <a href='https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing' className='btn ms-5 btn-danger'>Download Cv</a>
               </div>
               <div className="col">
                 <Player
