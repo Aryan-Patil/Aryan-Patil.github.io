@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "aryan-patil.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Aryan-Patil.github.io/portfolio",
+  "homepage": "https://Aryan-Patil.github.io",
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.0",
     "@testing-library/jest-dom": "^5.16.4",
